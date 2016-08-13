@@ -1,0 +1,47 @@
+
+.bg {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(#999, transparent), url('model.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  opacity: .45;*/
+  font-size: 40px;
+  padding: 40px;
+  color: tomato;
+}
+
+.bg2 {
+  width: 300px;
+  height: 200px;
+  color: tomato;
+  
+  background: -webkit-linear-gradient(bottom, #444, transparent),
+    url('model.jpeg');
+  background: -o-linear-gradient(bottom, #444, transparent),
+    url('model.jpeg');
+  background: linear-gradient(to top, #444, transparent),
+    url('model.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+/*  width: 100%;*/
+  text-align: center;
+  color: tomato;
+/*  top: 0;*/
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}

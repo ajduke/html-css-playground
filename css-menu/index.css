@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  padding: 5px;
+}
+
+.navigation {
+  width: 450px;
+  height: 50px;
+}
+
+.nav {
+  width: 100%;
+  overflow: auto;
+  padding: 0;
+  margin: 20px 0 0 50px;
+  background: #f3f3f3;
+  box-shadow: 1px 2px 3px #999;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.nav-item {
+  /*  width: 33.33%; */
+  list-style: none;
+  float: left;
+  padding: 10px 20px;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+.trans-bg {
+  background-color: #222;
+  opacity: 0.9;
+  color: #fff;
+  padding: 20px;
+}
+
+.content {
+  background-color: #000;
+}
